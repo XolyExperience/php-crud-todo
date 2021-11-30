@@ -21,7 +21,7 @@
                     <td>$todo[text]</td>
                     <td>$todo[isDone]</td>
                     <td>
-                      <a href='/todos/edit.php?id=$id' class='btn $isDoneBtnStyle'>$isDoneBtnText</a>
+                      <a href='/todos/update.php?id=$id' class='btn $isDoneBtnStyle'>$isDoneBtnText</a>
                       <a href='/todos/view/update.php?id=$id' class='btn btn-primary'>Update</a>
                       <a href='/todos/delete.php?id=$id' class='btn btn-danger'>Delete</a>
                     </td>

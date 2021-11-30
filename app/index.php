@@ -18,12 +18,12 @@
       <?php include 'todos/view/all.php'?>
     </div>
     <div class="row">
-        <form class="row" action="todos/add.php" method="POST">
+        <form class="row" action="todos/create.php" method="POST">
           <div class="col-md-4 form-group">
             <input type="text" name="text" class="form-control" placeholder="text" autocomplete="off">
           </div>
           <div class="col-md-2">
-            <input type="submit" class="btn btn-success btn-block">
+            <input type="submit" class="btn btn-success btn-block" value="Create"> 
           </div>
         </form>
     </div>

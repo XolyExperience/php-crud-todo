@@ -1,5 +1,6 @@
 <?php
 include('model/Todo.php');
+
 // Mark as done
 if  (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -9,7 +10,7 @@ if  (isset($_GET['id'])) {
     if ($result) {
         $_SESSION['message'] = 'Todo checked';
         $_SESSION['message_type'] = 'success';
-        header('Location: ../index.php');
+        header('Location:http://localhost:8080/index.php');
     } 
 }
 
@@ -23,7 +24,7 @@ if  (isset($_POST['id'])) {
     if ($result) {
         $_SESSION['message'] = 'Todo updated';
         $_SESSION['message_type'] = 'success';
-        header('Location: ../index.php');
+        header('Location:http://localhost:8080/index.php');
     } 
 }
 ?>

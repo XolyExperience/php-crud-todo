@@ -53,7 +53,7 @@ class TodoModel {
 
     public function addTodo($text) 
     {
-        $query = "INSERT INTO '$this->tableName' (text) VALUES ('$text')";
+        $query = "INSERT INTO $this->tableName (text) VALUES ('$text')";
         $result = $this->db->query($query);
         return $result;
     }
@@ -80,7 +80,7 @@ class TodoModel {
             echo "isDone was not set". $isDone;
         }
     
-        $query = "UPDATE `$this->tableName` SET `text`='$text',`isDone`='$isDone' WHERE `$this->tableName`.`id`=$id";
+        $query = "UPDATE $this->tableName SET `text`='$text',`isDone`='$isDone' WHERE `$this->tableName`.`id`=$id";
         $result = $this->db->query($query);
         return $result; 
     }
