@@ -24,10 +24,10 @@ services:
     ports:
         - "3306:3306"
     environment:
-      MARIADB_DATABASE: ${DB_DATABASE}
-      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-      MARIADB_PASSWORD: ${DB_PASSWORD}
-      MARIADB_USER: ${DB_USERNAME}
+      MARIADB_DATABASE: "dfsdf"
+      MARIADB_ROOT_PASSWORD: "dgsadg"
+      MARIADB_PASSWORD: "dgsdg"
+      MARIADB_USER: "dfgsdg"
     volumes:
       - ./docker/mysql/db:/var/lib/mysql
   phpmyadmin:

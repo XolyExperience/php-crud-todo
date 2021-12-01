@@ -1,0 +1,123 @@
+CRITICAL - 2021-12-01 03:58:53 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('home/test')
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/test')
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-01 04:00:12 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('home/test')
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/test')
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-01 04:01:07 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('home/test')
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/test')
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-01 04:01:35 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:02:27 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:03:11 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:05:18 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:08:24 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:09:01 --> Undefined variable $users
+#0 /app/app/Views/show_users.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/app/app/Views/...', 12)
+#1 /app/system/View/View.php(214): include('/app/app/Views/...')
+#2 /app/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/system/Common.php(1097): CodeIgniter\View\View->render('show_users', Array, true)
+#4 /app/app/Controllers/Home.php(18): view('show_users')
+#5 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#6 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 04:11:14 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('home/test')
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/test')
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-01 04:11:47 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('home/test')
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/test')
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-01 04:11:55 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-12-01 04:11:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/app/Models/UserModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 /app/app/Controllers/Home.php(15): App\Models\UserModel->get_users()
+#3 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#4 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-01 04:15:36 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-12-01 04:15:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/app/Models/UserModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 /app/app/Controllers/Home.php(15): App\Models\UserModel->get_users()
+#3 /app/system/CodeIgniter.php(824): App\Controllers\Home->test()
+#4 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

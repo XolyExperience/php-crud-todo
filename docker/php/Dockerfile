@@ -1,4 +1,4 @@
-FROM php:fpm
+FROM php:8.0-fpm
 # Arguments defined in docker-compose.yml
 ARG user
 ARG uid
@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-RUN docker-php-ext-install mysqli mbstring exif pcntl bcmath gd
+RUN docker-php-ext-install mysqli mbstring exif pcntl bcmath gd intl
 RUN docker-php-ext-enable mysqli
 
 # Get latest Composer
