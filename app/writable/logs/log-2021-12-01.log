@@ -1,0 +1,11 @@
+ERROR - 2021-12-01 04:03:36 --> Error connecting to the database: Unknown database 'msafadb'
+CRITICAL - 2021-12-01 04:03:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'msafadb'
+#0 /app/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/app/Models/UserModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 /app/app/Controllers/Home.php(17): App\Models\UserModel->get_users()
+#3 /app/system/CodeIgniter.php(824): App\Controllers\Home->jeanpaul()
+#4 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
